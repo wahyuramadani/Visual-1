@@ -1,0 +1,125 @@
+object Form1: TForm1
+  Left = 543
+  Height = 320
+  Top = 142
+  Width = 733
+  Caption = 'Form1'
+  ClientHeight = 320
+  ClientWidth = 733
+  LCLVersion = '2.0.12.0'
+  object Edit1: TEdit
+    Left = 17
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 17
+    Height = 23
+    Top = 112
+    Width = 80
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 16
+    Height = 23
+    Top = 168
+    Width = 80
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 34
+    Height = 15
+    Top = 32
+    Width = 38
+    Caption = 'NILAI 1'
+    Color = clHighlight
+    ParentColor = False
+    Transparent = False
+  end
+  object Label2: TLabel
+    Left = 34
+    Height = 15
+    Top = 88
+    Width = 38
+    Caption = 'NILAI 2'
+    Color = clMenuHighlight
+    ParentColor = False
+    Transparent = False
+  end
+  object Label3: TLabel
+    Left = 34
+    Height = 15
+    Top = 144
+    Width = 38
+    Caption = 'NILAI 3'
+    Color = clHighlight
+    ParentColor = False
+    Transparent = False
+  end
+  object Edit4: TEdit
+    Left = 168
+    Height = 23
+    Top = 56
+    Width = 80
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 168
+    Height = 23
+    Top = 112
+    Width = 80
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 168
+    Height = 23
+    Top = 168
+    Width = 80
+    TabOrder = 5
+  end
+  object Edit7: TEdit
+    Left = 168
+    Height = 23
+    Top = 224
+    Width = 80
+    TabOrder = 6
+  end
+  object Button1: TButton
+    Left = 344
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = '+'
+    OnClick = Button1Click
+    TabOrder = 7
+  end
+  object Button2: TButton
+    Left = 344
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'x'
+    OnClick = Button2Click
+    TabOrder = 8
+  end
+  object Button3: TButton
+    Left = 344
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = '-'
+    OnClick = Button3Click
+    TabOrder = 9
+  end
+  object Button4: TButton
+    Left = 344
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = ':'
+    OnClick = Button4Click
+    TabOrder = 10
+  end
+end
